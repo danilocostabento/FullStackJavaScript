@@ -11,7 +11,7 @@ let value = parseFloat(prompt(`What's the initial quantity?`))
 let option = ""
 
 do {
-  ption = prompt (
+  option = prompt (
   `Disponible value: R$${value}
   \n1- Add money
   \n2- Remove money
