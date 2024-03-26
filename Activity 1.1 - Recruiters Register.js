@@ -1,9 +1,9 @@
-Write a JavaScript program that allows you to save a recruit's information. The information to be saved is:
+/*Write a JavaScript program that allows you to save a recruit's information. The information to be saved is:
 the first name
 the surname
 the field of study
 the year of birth
-Then the program should display the recruit's full name, field of study and age (only based on year of birth).
+Then the program should display the recruit's full name, field of study and age (only based on year of birth).*/
 
 let name = prompt(`What's your fisrt name?`)
 let surname = prompt(`What's your surname?`)
