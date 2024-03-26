@@ -1,4 +1,4 @@
-Write a program that allows you to enter a character's name and attack power, 
+/*Write a program that allows you to enter a character's name and attack power, 
 then another character's name, amount of hit points, defense power and whether 
 they have a shield, and then calculate the amount of damage dealt based on the 
 following rules:
@@ -12,7 +12,7 @@ If the attack power is less than or equal to the defense, the damage dealt
 will be 0.
 Finally, the program must subtract the amount of damage from the amount of 
 life points of the defending character and display the amount of damage and 
-updated information for both characters on the screen.
+updated information for both characters on the screen.*/
 
 let name1 = prompt(`What's the name of the character?`)
 let power = parseFloat(prompt(`How much power the character have?`))
