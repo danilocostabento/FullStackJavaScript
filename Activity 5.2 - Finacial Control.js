@@ -1,11 +1,11 @@
-Write a JavaScript program that starts by asking for the initial
+/*Write a JavaScript program that starts by asking for the initial
 amount of money available and then displays that amount on the 
 screen along with options to add and remove money and an option 
 to leave. When clicking on the add money option, the program should 
 ask for the amount to be added, add this value to the initial amount 
 and then show the menu again with the amount of money and options. 
 The option to remove money should do the same, but subtracting the 
-amount. The exit option should terminate the program.
+amount. The exit option should terminate the program.*/
 
 let value = parseFloat(prompt(`What's the initial quantity?`))
 let option = ""
