@@ -1,0 +1,23 @@
+let name1 = prompt(`What's the name of the character?`)
+let power = parseFloat(prompt(`How much power the character have?`))
+let defense = parseFloat(prompt(`How much defense the character have?`))
+let lifePoints = parseFloat(prompt(`How much life points the character have?`))
+let name2 = prompt(`What's the name of the second character?`)
+let shield = prompt(`The opponent, have a shield?\n0- No\n1- Yes`)
+var damage = 0
+
+if (shield = 0) {
+  if (power > defense) {
+    damage = power - defense
+  } else if (power <= defense)
+    damage = 0
+} else{
+  if (power > defense) {
+    damage = (power - defense) / 2
+
+  } else if (power <= defense) {
+    damage = 0
+  }
+  var totalLifePoints = lifePoints - damage
+  alert(`The damage was ${damage} and the new life points is: ${totalLifePoints} HP`)
+}
