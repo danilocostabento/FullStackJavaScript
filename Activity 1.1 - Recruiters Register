@@ -1,0 +1,9 @@
+let name = prompt(`What's your fisrt name?`)
+let surname = prompt(`What's your surname?`)
+let studyField = prompt(`What's your study field?`)
+let birthday = prompt(`What's your birthday year?`)
+
+alert(`Welcome to abroad recruit!
+\nName: ${name} ${surname}
+\nStudy Field: ${studyField}
+\nBirthday Year: ${birthday}`)
