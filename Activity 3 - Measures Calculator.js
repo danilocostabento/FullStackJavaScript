@@ -1,4 +1,4 @@
-Write a JavaScript program that works as a measurement converter. 
+/*Write a JavaScript program that works as a measurement converter. 
 The program should ask for a value in meters and then give the 
 option to choose which unit of measurement this value should be 
 converted to. The options are:
@@ -12,7 +12,7 @@ The program must then convert the measurement according to the
 chosen option and display the result.
 The program must also display an “Invalid option” message if 
 the user enters an option other than those available 
-(use break and default for this)
+(use break and default for this)*/
 
 let value = parseFloat(prompt(`What's the value in meters?`))
 var options = prompt(`What's the desired value?
