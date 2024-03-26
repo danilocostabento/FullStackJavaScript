@@ -1,11 +1,11 @@
-Write a JavaScript program to simulate a waiting line at a doctor's office. The program must 
+/*Write a JavaScript program to simulate a waiting line at a doctor's office. The program must 
 start by showing an interactive menu on the screen containing a list of all patients waiting 
 in order, showing their position next to their name (e.g.: 1st Matheus, 2nd Marcos, etc.). 
 The menu should also allow you to choose between the options “New patient”, to add a new 
 patient to the end of the queue (asking for the patient's name), “Consult patient”, which 
 removes the first patient from the queue and shows the name on the screen of the consulted 
 patient, and “Exit”. The program must only be closed by choosing the “Exit” option, otherwise 
-you must return to the menu.
+you must return to the menu.*/
 
 
 let patients = []
