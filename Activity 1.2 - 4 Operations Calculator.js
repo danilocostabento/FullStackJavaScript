@@ -1,9 +1,9 @@
-Write a JavaScript program that allows you to enter 
+/*Write a JavaScript program that allows you to enter 
 two numerical values ​​and then calculate the result 
 of the four basic operations (addition, subtraction, 
 multiplication and division).
 After calculating the results, the program must display 
-them on the screen.
+them on the screen.*/
 
 var value1 = parseFloat(prompt(`What is the first value?`))
 var value2 = parseFloat(prompt(`What is the second value?`))
