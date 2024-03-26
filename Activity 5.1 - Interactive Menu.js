@@ -9,23 +9,23 @@ the user chooses the “Quit” option. When choosing it, a message saying
 that the system is being closed should be displayed on the screen and 
 then the program ends.*/
 
-let opcaoErrada = ["1", "2", "3", "4"]
-let opcaoCorreta = "5"
-var escolherOpcao = "0"
+let incorrectOption = ["1", "2", "3", "4"]
+let correctOption = "5"
+var option = ""
 
 do {
-  escolherOpcao = prompt(`Qual a sua linguagem de programação: 
+  option = prompt(`What's your programming language?: 
   \n 1 - CSS 
   \n 2 - HTML 
   \n 3 - PYTHON 
   \n 4 - Javascript 
-  \n 5 - Encerrar`)
-  if (escolherOpcao != opcaoCorreta){
-    alert(`Sua escolha foi a de número ${escolherOpcao}`)} else {
-      alert(`Programa encerrado com sucesso, volte sempre`)
+  \n 5 - Exit`)
+  if (option != correctOption){
+    alert(`Your choose was the number ${option}`)} else {
+      alert(`Exiting...`)
     }
-} while (escolherOpcao != opcaoCorreta)
+} while (option != inccorrectOption)
   
-if (escolherOpcao == opcaoCorreta) {
-  "O programa está sendo encerrado, volte sempre ;)"
+if (option == correctOption) {
+  alert(`Exiting...`)
 }
