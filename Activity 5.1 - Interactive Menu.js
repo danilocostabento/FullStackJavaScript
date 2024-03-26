@@ -1,4 +1,4 @@
-Write a JavaScript program that simulates an interactive menu with 
+/*Write a JavaScript program that simulates an interactive menu with 
 5 different options. The program should start showing the 5 available 
 options, the first four do not require any specific functionality, 
 the last option should be the “Quit” option. When clicking on one of 
@@ -7,7 +7,7 @@ indicating which option was chosen and then the program should display
 the menu with the 5 options again. This should continue to happen until 
 the user chooses the “Quit” option. When choosing it, a message saying 
 that the system is being closed should be displayed on the screen and 
-then the program ends.
+then the program ends.*/
 
 let opcaoErrada = ["1", "2", "3", "4"]
 let opcaoCorreta = "5"
