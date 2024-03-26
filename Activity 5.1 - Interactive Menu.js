@@ -25,7 +25,3 @@ do {
       alert(`Exiting...`)
     }
 } while (option != inccorrectOption)
-  
-if (option == correctOption) {
-  alert(`Exiting...`)
-}
