@@ -1,0 +1,12 @@
+var value1 = parseFloat(prompt(`What is the first value?`))
+var value2 = parseFloat(prompt(`What is the second value?`))
+let addition = value1 + value2
+let subtraction = value1 - value2
+let multiplication = value1 * value2
+let division = value1 / value2
+
+alert(`The values are ${value1} and ${value2}
+\nAddition: ${addition}
+\nSubtraction: ${subtraction}
+\nMultiplication: ${multiplication}
+\nDivision: ${division}`)
